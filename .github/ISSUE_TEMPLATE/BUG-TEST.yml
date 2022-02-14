@@ -4,7 +4,7 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
- Reporting an infraestructure build break for investigation. 
+  - value: Reporting an infraestructure build break for investigation. 
   - type: input
     id: pull-request
     attributes:
