@@ -14,17 +14,14 @@ body:
     attributes:
       label: Pull Request
       description: This is automatically filled from the issue that your opened this issue. Ignore if x
-      value: This is the value
+      value: https://github.com/dotnet/core-eng/issues/14182
     validations:
       required: false
   - type: textarea
-    id: builds-related
+    id: build-related
     attributes:
-      label: Builds related
+      label: Build related
       description: Feel free to link the liks of the builds that are related to the issue so we can do further investigation
-      placeholder: ALITZEL 
-    validations:
-      required: true
   - type: dropdown
     id: issue-type
     attributes:
