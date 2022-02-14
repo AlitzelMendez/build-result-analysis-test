@@ -31,6 +31,8 @@ body:
          "ErrorMessage": "" 
         }
       render: json
+    validation: 
+      required: true
   - type: dropdown
     id: issue-type
     attributes:
