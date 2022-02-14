@@ -42,7 +42,7 @@ body:
          Example: { 
          "errorMessage" : "The operation was canceled"
          }
-      value:
+      value: |
       {
           "errorMessage" : ""
       }
