@@ -13,10 +13,7 @@ body:
     id: pull-request
     attributes:
       label: Pull Request
-      description: This is automatically filled from the issue that your opened this issue. Ignore if x
-      value: https://github.com/dotnet/core-eng/issues/14182
-    validations:
-      required: false
+      description: If the issue is open from the build analysis, this is automatically filled, feel free to update it. 
   - type: input
     id: build-related
     attributes:
@@ -28,14 +25,13 @@ body:
       label: Error Message
       description: |
          Example: 
-         {
-          "ErrorMessage" : "The operation was canceled"
-         }
+         { "ErrorMessage" : "The operation was canceled" }
       value: |
         {
          "ErrorMessage": "" 
         }
       render: json
+      required: true
   - type: dropdown
     id: issue-type
     attributes:
