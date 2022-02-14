@@ -30,7 +30,9 @@ body:
          Example: 
          {"errorMessage" : "The operation was canceled"}
       value: |
-        { "errorMessage" : "" }
+        {
+         "errorMessage": "" 
+        }
       render: json
   - type: dropdown
     id: issue-type
