@@ -42,9 +42,9 @@ body:
          Example: 
          {"errorMessage" : "The operation was canceled"}
       value: |
-      {
+     
           "errorMessage" : ""
-      }
+      
       render: json
   - type: checkboxes
     id: terms
