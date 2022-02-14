@@ -23,6 +23,7 @@ body:
     attributes:
       label: Error Message
       description: |
+         The error message should be shared as json format with the key "ErrorMessage".
          Example: 
          { "ErrorMessage" : "The operation was canceled" }
       value: |
