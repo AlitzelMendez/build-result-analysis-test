@@ -38,10 +38,13 @@ body:
     id: error-message
     attributes:
       label: Error Message
-      description: Example: { "errorMessage" : "The operation was canceled"}
+      description: |
+         Example: { 
+         "errorMessage" : "The operation was canceled"
+         }
       value:
       {
-          "errorMessage" : "The operation was canceled"
+          "errorMessage" : ""
       }
       render: json
   - type: checkboxes
