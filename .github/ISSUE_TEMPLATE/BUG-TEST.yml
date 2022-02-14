@@ -39,9 +39,8 @@ body:
     attributes:
       label: Error Message
       description: |
-         Example: { 
-         "errorMessage" : "The operation was canceled"
-         }
+         Example: 
+         {"errorMessage" : "The operation was canceled"}
       value: |
       {
           "errorMessage" : ""
