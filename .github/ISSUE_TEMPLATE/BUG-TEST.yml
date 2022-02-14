@@ -39,11 +39,9 @@ body:
     attributes:
       label: Error Message
       description: Example:
-      ```json
       {
           "errorMessage" : "The operation was canceled"
       }
-      ```
       value:
       {
           "errorMessage" : "The operation was canceled"
