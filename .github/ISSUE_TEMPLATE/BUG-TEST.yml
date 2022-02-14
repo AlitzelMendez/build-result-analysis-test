@@ -45,11 +45,9 @@ body:
         - Critital
         - Infrastructure
         - Repo
-  - type: checkboxes
-    id: terms
+  - type: textarea
+    id: additional-information
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Additional details
+      description: Write any additional details that you consider important for the investigation
+
