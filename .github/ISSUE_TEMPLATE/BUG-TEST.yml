@@ -17,20 +17,11 @@ body:
       value: https://github.com/dotnet/core-eng/issues/14182
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: build-related
     attributes:
       label: Build related
       description: Feel free to link the liks of the builds that are related to the issue so we can do further investigation
-  - type: dropdown
-    id: issue-type
-    attributes:
-      label: Issue Type
-      description: How you categorize the issue
-      options:
-        - Critital
-        - Infrastructure
-        - Repo
   - type: textarea
     id: error-message
     attributes:
@@ -41,6 +32,15 @@ body:
       value: |
         { "errorMessage" : "" }
       render: json
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: How you categorize the issue
+      options:
+        - Critital
+        - Infrastructure
+        - Repo
   - type: checkboxes
     id: terms
     attributes:
