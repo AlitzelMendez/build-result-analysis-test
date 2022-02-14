@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Known Issue Report
+description: File a known issue report
 labels: ["bug", "triage"]
 assignees:
   - octocat
@@ -14,31 +14,26 @@ body:
       label: Pull Request
       description: If the issue is open from the build analysis, this is automatically filled, feel free to update it. 
   - type: input
-    id: build-related
+    id: build
     attributes:
-      label: Build related
+      label: Build
+      description: Feel free to link the liks of the builds that are related to the issue so we can do further investigation
+  - type: input
+    id: build-error
+    attributes:
+      label: Build Error
       description: Feel free to link the liks of the builds that are related to the issue so we can do further investigation
   - type: textarea
     id: error-message
     attributes:
       label: Error Message
       description: |
-         The error message should be shared as json format with the key "ErrorMessage".
-         Ex. { "ErrorMessage" : "The operation was canceled" }
+         This information should be filled by FR
       value: |
         {
          "ErrorMessage": "" 
         }
       render: json
-  - type: dropdown
-    id: issue-type
-    attributes:
-      label: Issue Type
-      description: How you categorize the issue
-      options:
-        - Critital
-        - Infrastructure
-        - Repo
   - type: textarea
     id: additional-information
     attributes:
