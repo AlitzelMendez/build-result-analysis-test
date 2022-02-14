@@ -29,11 +29,11 @@ body:
       description: |
          Example: 
          {
-             "errorMessage" : "The operation was canceled"
+          "ErrorMessage" : "The operation was canceled"
          }
       value: |
         {
-         "errorMessage": "" 
+         "ErrorMessage": "" 
         }
       render: json
   - type: dropdown
