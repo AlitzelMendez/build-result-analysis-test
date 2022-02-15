@@ -37,6 +37,6 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional information to investigate the issue
-      description: Write any details that you consider important for the investigation
+      label: Additional information about the issue reported
+      description: Provide any details that could help with the investigation
 
