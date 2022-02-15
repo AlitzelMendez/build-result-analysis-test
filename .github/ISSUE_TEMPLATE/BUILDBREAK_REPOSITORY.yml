@@ -28,7 +28,9 @@ body:
     attributes:
       label: Error Message
       description: |
-         This information should be filled by you or repo owners. [Guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
+         This information should be filled by you or repo owners. 
+         Following the format: 
+         [Guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
       value: |
         {
          "ErrorMessage": "" 
@@ -37,8 +39,7 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional information to investigate the Infrastructure build break
-      description: Write any additional details that you consider important for the investigation
+      label: Additional information to the repository issue
   - type: checkboxes
     id: not-fr
     attributes:
