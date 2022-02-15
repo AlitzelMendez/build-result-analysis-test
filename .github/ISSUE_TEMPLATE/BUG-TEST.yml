@@ -1,13 +1,13 @@
 name: Known Issue Report
 description: File a known issue report
 labels: ["bug", "triage"]
+title: [Build Break]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
-      value: Reporting an infraestructure build break for investigation. 
-      preview_only: false
+      value: Thanks for reporting an infraestructure build break for investigation. 
   - type: input
     id: pull-request
     attributes:
@@ -39,4 +39,5 @@ body:
     attributes:
       label: Additional details
       description: Write any additional details that you consider important for the investigation
+      value: Report an infraestructure build break
 
