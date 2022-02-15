@@ -45,5 +45,5 @@ body:
      label: Repository issue
      description: By submitting this issue, you are aware that this is not going to be triaged by FR and your repo is the only impacted by this problem.
      options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I am aware this is an issue ocurring in the repository reported. 
           required: true
