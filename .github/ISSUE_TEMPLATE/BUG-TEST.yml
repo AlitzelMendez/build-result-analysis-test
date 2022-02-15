@@ -37,7 +37,6 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional details
+      label: Additional information to investigate the infraestructure build break
       description: Write any additional details that you consider important for the investigation
-      value: Report an infraestructure build break
 
