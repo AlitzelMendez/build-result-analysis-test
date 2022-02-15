@@ -1,6 +1,6 @@
 name: Build Break - Report Repository Issue
 description: File a repository issue causing build breaks
-labels: ["bug", "triage"]
+labels: ["Detected By - Customer", "Known Build Error"]
 title: "[Build Break-Repository]: "
 body:
   - type: markdown
