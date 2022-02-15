@@ -2,8 +2,6 @@ name: Build Break - Report Repository Issue
 description: File a repository issue causing build breaks
 labels: ["bug", "triage"]
 title: "[Build Break-Repository]: "
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
