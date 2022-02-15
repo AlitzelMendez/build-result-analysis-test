@@ -28,9 +28,8 @@ body:
     attributes:
       label: Error Message
       description: |
-         This information should be filled by you or repo owners. 
-         Following the format: { "errorMessage" : "The operation was canceled"}
-         [Guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
+         This information should be filled by you or repo owners. Using the [Known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
+         The message should follow the format: { "errorMessage" : "The operation was canceled"}
       value: |
         {
          "ErrorMessage": "" 
