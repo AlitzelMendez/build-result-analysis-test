@@ -19,7 +19,7 @@ body:
       label: Build
       description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it. 
     validations:
-      requiered: true
+      required: true
   - type: input
     id: build-error
     attributes:
