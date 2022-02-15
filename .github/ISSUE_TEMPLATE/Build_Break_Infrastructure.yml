@@ -14,14 +14,14 @@ body:
     validations:
       required: true
   - type: input
-    id: build-leg-failing
+    id: build-leg-reported
     attributes:
-      label: Build Leg Failing
-      description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it.
+      label: Build leg reported
+      description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it with any impacted leg.
   - type: textarea
     id: error-message
     attributes:
-      label: Error Message
+      label: Error message
       description: |
          This information is going to be filled in by FR (First Responders). Following the [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation).
       value: |
@@ -33,5 +33,5 @@ body:
     id: additional-information
     attributes:
       label: Additional information about the issue reported
-      description: Provide any details that could help with the investigation. Ex. Additional links or whole error.
+      description: Provide any details that could help with the investigation. Ex. Additional links, logs, error.
 
