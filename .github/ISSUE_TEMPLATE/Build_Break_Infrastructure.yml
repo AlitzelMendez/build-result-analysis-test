@@ -28,7 +28,7 @@ body:
     attributes:
       label: Error Message
       description: |
-         This information should be filled by FR
+         This information is going to be filled by FR (First Responders). Following the [known issues guidance](Using the [Known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
       value: |
         {
          "ErrorMessage": "" 
