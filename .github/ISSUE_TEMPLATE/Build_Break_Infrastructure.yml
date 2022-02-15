@@ -12,12 +12,12 @@ body:
     id: pull-request
     attributes:
       label: Pull Request
-      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it. 
+      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it.
   - type: input
     id: build
     attributes:
       label: Build
-      description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it. 
+      description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it with a link to any impacted build.
     validations:
       required: true
   - type: input
