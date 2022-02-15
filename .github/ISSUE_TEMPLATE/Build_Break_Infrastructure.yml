@@ -1,7 +1,7 @@
 name: Build Break - Infrastructure Report
 description: File an infrastructure issue causing build breaks to be investigated by FR
 labels: ["bug", "triage"]
-title: "[Build Break]: "
+title: "[Build Break-Infrastructure]: "
 assignees:
   - octocat
 body:
