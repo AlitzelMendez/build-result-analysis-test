@@ -1,7 +1,7 @@
 name: Known Issue Report
 description: File a known issue report
 labels: ["bug", "triage"]
-title: [Build Break]
+title: "[Build Break]: "
 assignees:
   - octocat
 body:
