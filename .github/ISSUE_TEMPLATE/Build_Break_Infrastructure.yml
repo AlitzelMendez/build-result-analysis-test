@@ -5,12 +5,7 @@ title: "[Build Break-Infrastructure]: "
 body:
   - type: markdown
     attributes:
-      value: Thanks for reporting an infrastructure build break for FR investigation. 
-  - type: input
-    id: pull-request
-    attributes:
-      label: Pull Request
-      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it.
+      value: Thanks for reporting an infrastructure build break for FR investigation.
   - type: input
     id: build
     attributes:
@@ -19,9 +14,9 @@ body:
     validations:
       required: true
   - type: input
-    id: build-error
+    id: build-leg-failing
     attributes:
-      label: Build Error
+      label: Build Leg Failing
       description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it.
   - type: textarea
     id: error-message
@@ -38,5 +33,5 @@ body:
     id: additional-information
     attributes:
       label: Additional information about the issue reported
-      description: Provide any details that could help with the investigation
+      description: Provide any details that could help with the investigation. Ex. Additional links or whole error.
 
