@@ -26,9 +26,9 @@ body:
   - type: textarea
     id: error-message
     attributes:
-      label: Error Message
+      label: Error Message - [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
       description: |
-         This information is going to be filled in by FR (First Responders). Following the [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation)
+         This information is going to be filled in by FR (First Responders).
       value: |
         {
          "ErrorMessage": "" 
