@@ -18,6 +18,7 @@ body:
     attributes:
       label: Build
       description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it. 
+      required: true
   - type: input
     id: build-error
     attributes:
