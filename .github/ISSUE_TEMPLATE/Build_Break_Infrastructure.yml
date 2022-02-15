@@ -1,4 +1,4 @@
-name: Build Break - Infrastructure Known Issue Report
+name: Build Break - Infrastructure Report
 description: File an infrastructure issue causing build breaks to be investigated by FR
 labels: ["bug", "triage"]
 title: "[Build Break]: "
