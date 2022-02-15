@@ -33,7 +33,7 @@ body:
        {
          "ErrorMessage": "" 
        }
-      render: markdown
+      render: json
   - type: textarea
     id: additional-information
     attributes:
