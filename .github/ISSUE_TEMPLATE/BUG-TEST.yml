@@ -1,5 +1,5 @@
-name: Known Issue Report
-description: File a known issue report
+name: Build Break - Infrastructure Known Issue Report
+description: File an infrastructure issue causing build breaks to be investigated by FR
 labels: ["bug", "triage"]
 title: "[Build Break]: "
 assignees:
@@ -37,6 +37,6 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional information to investigate the infraestructure build break
+      label: Additional information to investigate the Infrastructure build break
       description: Write any additional details that you consider important for the investigation
 
