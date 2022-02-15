@@ -7,20 +7,15 @@ body:
     attributes:
       value: Thanks for reporting a repository build break.
   - type: input
-    id: pull-request
-    attributes:
-      label: Pull Request
-      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it.
-  - type: input
     id: build
     attributes:
       label: Build
       description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it with a link to any impacted build.
   - type: input
-    id: build-error
+    id: build-leg-reported
     attributes:
-      label: Build Error
-      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it.
+      label: Build leg reported
+      description: If the issue was opened from the build analysis, this was automatically populated, feel free to update it with any impacted leg.
   - type: textarea
     id: error-message
     attributes:
