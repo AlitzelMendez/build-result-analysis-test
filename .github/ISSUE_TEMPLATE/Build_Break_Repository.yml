@@ -43,7 +43,8 @@ body:
     id: not-fr
     attributes:
      label: Repository issue
-     description: By submitting this issue, you are aware that this is not going to be triaged by FR because this is an issue on the repository. If this not the case please open an infrastructure issue
+     description: | By creating this issue, you are aware that this is not going to be triaged by FR, because this is an issue on the repository.  
+     If this is not the case, please open an infrastructure issue 
      options:
-        - label: This issue is only affecting the repository from which it was reported.
+        - label: This issue is only impacting the repository from which it was reported.
           required: true
