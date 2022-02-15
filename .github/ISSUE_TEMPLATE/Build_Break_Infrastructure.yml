@@ -33,5 +33,5 @@ body:
     id: additional-information
     attributes:
       label: Additional information about the issue reported
-      description: Provide any details that could help with the investigation. Ex. Additional links, logs, error.
+      description: Provide any details that could help with the investigation. Ex. links, logs, error.
 
