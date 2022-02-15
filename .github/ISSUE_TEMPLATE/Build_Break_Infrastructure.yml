@@ -31,11 +31,11 @@ body:
          This information is going to be filled in by FR (First Responders).
       value: |
          In order to fill the error message use the [known issue guidance]([known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation))
-      ```json
-        {
-         "ErrorMessage": "" 
-        }
-       ```
+         ```json
+          {
+           "ErrorMessage": "" 
+          }
+         ```
       render: markdown
   - type: textarea
     id: additional-information
