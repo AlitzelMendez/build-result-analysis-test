@@ -36,7 +36,7 @@ body:
       description: Provide any details that could help with the investigation. Ex. links, logs, error.
   - type: checkboxes
     attributes:
-      label: 
+      label: ""
       options: 
         - label: This issue should be investigated by @AlitzelMendez 
 
