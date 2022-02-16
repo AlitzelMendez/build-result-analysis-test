@@ -36,6 +36,13 @@ body:
       description: select all impacted builds
       options: 
          - label: ali
+  - type: dropdown
+    id: impacted-builds-dropdown
+    attributes:
+      label: Impacted Builds dropdown
+      description: select all impacted builds
+      options: 
+         - ali   
   - type: textarea
     id: additional-information
     attributes:
