@@ -1,7 +1,7 @@
-name: Build Break - Report Infrastructure Issue
+name: Build Break - Testing
 description: File an infrastructure issue causing build breaks to be investigated by FR
 labels: ["First Responder", "Detected By - Customer", "Known Build Error"]
-title: "[Build Break-Infrastructure]: "
+title: "[Build Break-Testing]: "
 body:
   - type: markdown
     attributes:
