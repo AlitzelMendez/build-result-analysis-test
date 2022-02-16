@@ -36,4 +36,8 @@ body:
     attributes:
       label: Additional information about the issue reported
       description: Provide any details that could help with the investigation. Ex. links, logs, error.
+  - type: checkboxes
+    label: Report to the engineering services team
+    options: 
+      - label: This issue should be investigated by @AlitzelMendez 
 
