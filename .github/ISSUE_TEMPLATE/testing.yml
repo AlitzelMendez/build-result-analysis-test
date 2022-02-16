@@ -29,6 +29,13 @@ body:
          "ErrorMessage": "" 
        }
       render: json
+  - type: checkboxes
+    id: impacted-builds
+    attributes:
+      label: Impacted Builds
+      description: select all impacted builds
+      options: 
+         - label: ali
   - type: textarea
     id: additional-information
     attributes:
