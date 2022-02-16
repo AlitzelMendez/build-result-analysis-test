@@ -28,16 +28,12 @@ body:
          "ErrorMessage": "" 
         }
       render: json
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional information about the issue
   - type: checkboxes
     id: not-fr
     attributes:
      label: Repository issue
      description: | 
-        By creating this issue, you are aware that this is not going to be investigated by FR, because this is an issue on the repository.  
+        By creating this issue, you are aware that this is not going to be investigated by the engineering services team, because this is an issue on the repository.  
         If this is not the case, please open an infrastructure issue 
      options:
         - label: This issue is only impacting the repository from which it was reported.
