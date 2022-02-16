@@ -3,8 +3,6 @@ description: File an infrastructure issue causing build breaks to be investigate
 labels: ["First Responder", "Detected By - Customer", "Known Build Error"]
 title: "[Build Break-Infrastructure]: "
 body:
-  - type: none 
-    value: alitzel
   - type: markdown
     attributes:
       value: Thanks for reporting an infrastructure build break for FR investigation.
