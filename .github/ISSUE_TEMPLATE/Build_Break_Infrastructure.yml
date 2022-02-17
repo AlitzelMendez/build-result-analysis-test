@@ -34,8 +34,4 @@ body:
     attributes:
       label: Additional information about the issue reported
       description: Provide any details that could help with the investigation. e.g. links, logs, errors.
-  - type: checkboxes
-    attributes:
-      label: Infrastructure issue
-      options: 
-        - label: This issue needs the intervention of @dotnet/dnceng team
+      value: This issues is going to be investigated by the @dotnet/dnceng team
