@@ -34,4 +34,4 @@ body:
     attributes:
       label: Additional information about the issue reported
       description: Provide any details that could help with the investigation. e.g. links, logs, errors.
-      value: This issues is going to be investigated by the @dotnet/dnceng team
+      value: Adding @dotnet/dnceng team
