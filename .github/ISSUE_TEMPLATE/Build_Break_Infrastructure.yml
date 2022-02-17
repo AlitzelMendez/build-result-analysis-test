@@ -5,7 +5,7 @@ title: "[Build Break-Infrastructure]: "
 body:
   - type: markdown
     attributes:
-      value: Thanks for reporting an infrastructure build break for FR investigation.
+      value: Thanks for reporting an infrastructure build break to get investigate by the engineering services team.
   - type: input
     id: build
     attributes:
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Error message
       description: |
-         This information is going to be filled in by FR (First Responders). Following the [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation).
+         This information is going to be filled in by the engineering services team. Following the [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation).
       value: |
        {
          "ErrorMessage": "" 
@@ -33,10 +33,9 @@ body:
     id: additional-information
     attributes:
       label: Additional information about the issue reported
-      description: Provide any details that could help with the investigation. Ex. links, logs, error.
+      description: Provide any details that could help with the investigation. e.g. links, logs, errors.
   - type: checkboxes
     attributes:
-      label: " "
+      label: Infrastructure issue
       options: 
-        - label: This issue should be investigated by @AlitzelMendez 
-
+        - label: This issue needs the intervention of @dotnet/dnceng team
