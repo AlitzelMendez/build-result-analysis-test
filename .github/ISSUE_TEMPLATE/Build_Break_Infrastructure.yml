@@ -14,7 +14,7 @@ body:
     validations:
       required: true
   - type: input
-    id: build-leg-reported
+    id: build-leg
     attributes:
       label: Build leg reported
       description: If the issue was opened from the build analysis, this was automatically filled, feel free to update it with any impacted leg.
