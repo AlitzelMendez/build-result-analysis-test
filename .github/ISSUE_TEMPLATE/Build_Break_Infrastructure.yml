@@ -23,7 +23,7 @@ body:
       label: Error message
       description: This information is going to be filled in by the engineering services team. 
       value: |
-         Fill error message following [known issues guidance](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#how-to-fill-out-a-known-issue-error-message-section).
+         Fill error message using [known issues guidance](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#how-to-fill-out-a-known-issue-error-message-section).
          ```json 
          {"ErrorMessage": ""}
          ```
