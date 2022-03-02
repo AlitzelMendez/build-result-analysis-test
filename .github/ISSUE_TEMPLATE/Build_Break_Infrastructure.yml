@@ -28,8 +28,7 @@ body:
         ```json 
         {
             "ErrorMessage": "The operation was canceled"
-        }
-        ```
+        }```
   - type: textarea
     id: additional-information
     attributes:
