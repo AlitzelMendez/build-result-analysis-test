@@ -22,7 +22,7 @@ body:
     attributes:
       label: Error message
       description: |
-         This information is going to be filled in by the engineering services team. Following the [known issues guidance](https://github.com/dotnet/core-eng/blob/f347870280b69d9224e48c948cd5a0ce0a334f8d/DevDocumentation/DevWorkflow/Design/Dev-Design-Infra-Known-Issues.md#investigation).
+         This information is going to be filled in by the engineering services team. Following the [known issues guidance](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#known-issues).
       value: |
        {
          "ErrorMessage": "" 
