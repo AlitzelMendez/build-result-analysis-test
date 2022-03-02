@@ -27,7 +27,7 @@ body:
          
          ```json
          {
-            "Error Message" : ""
+            "ErrorMessage" : ""
          }
          ``
   - type: textarea
