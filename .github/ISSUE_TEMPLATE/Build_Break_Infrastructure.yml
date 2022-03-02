@@ -26,9 +26,9 @@ body:
          The engineering services team will fill in the error message using [known issues guidance](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#how-to-fill-out-a-known-issue-error-message-section).
          
         ```json 
-        {
-            "ErrorMessage": "The operation was canceled"
-        }```
+        {"ErrorMessage": "The operation was canceled"
+        }
+        ```
   - type: textarea
     id: additional-information
     attributes:
