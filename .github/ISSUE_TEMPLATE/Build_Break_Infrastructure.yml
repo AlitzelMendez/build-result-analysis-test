@@ -23,9 +23,9 @@ body:
       label: Error message
       value: |
          This information is going to be filled in by the engineering services team. Following the [known issues guidance](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#known-issues).
-         ```json {
-           "ErrorMessage": "" 
-         }```
+         ```json 
+         {"ErrorMessage": ""}
+         ```
   - type: textarea
     id: additional-information
     attributes:
