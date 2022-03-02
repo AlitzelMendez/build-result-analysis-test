@@ -1,4 +1,3 @@
-
 name: Build Break - Report Infrastructure Issue
 description: File an infrastructure issue causing build breaks to be investigated by the engineering services team.
 labels: ["First Responder", "Detected By - Customer", "Known Build Error"]
