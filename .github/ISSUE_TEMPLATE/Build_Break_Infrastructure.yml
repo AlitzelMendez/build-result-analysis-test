@@ -27,7 +27,6 @@ body:
        {
          "ErrorMessage": "" 
        }
-      render: json
   - type: textarea
     id: additional-information
     attributes:
