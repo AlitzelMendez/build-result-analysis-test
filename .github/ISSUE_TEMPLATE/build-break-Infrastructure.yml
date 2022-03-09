@@ -1,5 +1,5 @@
 name: Report Infrastructure Issue - Build Break
-description: File an infrastructure issue when a there is a build break that is impacting a wide range of builds and the issue needs to displayed in the build analysis check. 
+description: File an infrastructure issue when there is a build break that is impacting a wide range of builds and the issue needs to be displayed in the build analysis check.
 labels: ["First Responder", "Detected By - Customer", "Known Build Error"]
 body:
   - type: markdown
