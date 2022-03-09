@@ -1,12 +1,11 @@
-name: Report Infrastructure Issue - Known Issue
-description: File an infrastructure known issue causing build breaks to be investigated by the engineering services team.
-labels: ["First Responder", "Known Build Error"]
+name: Report Infrastructure Issue - Build Break
+description: File an infrastructure issue when a there is a build break that is impacting a wide range of builds and the error is not exclusive to a repository. 
+labels: ["First Responder", "Detected By - Customer", "Known Build Error"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting an infrastructure build breaking known issue.
-        By creating this issue you are opening a [known issue](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md) that will be investigated by the engineering services team.
+        This issue will be used to identify future build breaks with the same build error and will be displayed in [build analysis check]()
   - type: input
     id: build
     attributes:
