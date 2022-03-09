@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-      Thanks for reporting an infrastructure build breaking known issue issue.
-      By creating this issue you are opening a [known issue]() that will be investigated by the engineering services team.
+        Thanks for reporting an infrastructure build breaking known issue issue.
+        By creating this issue you are opening a [known issue]() that will be investigated by the engineering services team.
   - type: input
     id: build
     attributes:
