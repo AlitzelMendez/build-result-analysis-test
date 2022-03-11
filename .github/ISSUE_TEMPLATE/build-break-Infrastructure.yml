@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue could be used to identify future build breaks with the same build error. In that case it will be displayed in [build analysis check](https://github.com/dotnet/arcade/blob/174acbcafeba3ae339c1935ec48812514ee09837/Documentation/Projects/Build%20Analysis/Introduction.md)
+        This issue could be used to identify future build breaks with the same build error.
   - type: input
     id: build
     attributes:
@@ -21,15 +21,14 @@ body:
   - type: textarea
     id: error-message
     attributes:
-      label: Action requiered
+      label: Action requiered for the engineering services team
       description: This information is going to be fill in by the engineering services team. 
       value: |
         To triage this issue:
         - [ ] Open the failing build above and investigate
         - [ ] Add a comment explaining your findings 
 
-
-        If this is an issue that is causing build breaks across multiple builds and would get benefit from be listed on the build analysis check, follow the next steps:
+        If this is an issue that is causing build breaks across multiple builds and would get benefit from be listed on the [build analysis check](https://github.com/dotnet/arcade/blob/174acbcafeba3ae339c1935ec48812514ee09837/Documentation/Projects/Build%20Analysis/Introduction.md), follow the next steps:
         1. Add the label "Known Build Error"
         2. Edit this issue and add an error string in the Json below that can help us match this issue with future build breaks. You can use the [known issues documentation](https://github.com/dotnet/arcade/blob/main/Documentation/Projects/Build%20Analysis/KnownIssues.md#how-to-fill-out-a-known-issue-error-message-section)
 
