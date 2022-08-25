@@ -18,6 +18,11 @@ body:
       label: Build leg reported
       description: Enter the name of the stage/job where the build failed.
   - type: input
+    id: test-name
+    attributes:
+      label: Test name reported
+      description: If this is a known issue test enter the name of the failing test.
+  - type: input
     id: pr
     attributes:
       label: Pull Request
