@@ -1,6 +1,6 @@
 name: Report an infrastructure issue
 description: Report an infrastructure issue causing build failures
-labels: ["First Responder"]
+labels: ["First Responder", "bug", "Known Build Error"]
 body:
   - type: markdown
     attributes:
