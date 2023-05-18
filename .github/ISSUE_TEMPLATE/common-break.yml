@@ -1,5 +1,5 @@
-name: Report an infrastructure issue
-description: Report an infrastructure issue causing build failures
+name: Report an infrastructure known issue
+description: Report an infrastructure known issue causing build failures across multiple repositories
 labels: ["First Responder", "Known Build Error"]
 body:
   - type: markdown
